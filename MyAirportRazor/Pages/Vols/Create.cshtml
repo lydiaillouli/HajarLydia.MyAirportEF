@@ -1,0 +1,64 @@
+﻿@page
+@model MyAirport.Razor.CreateModelVols
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Vol</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Vol.Ligne" class="control-label"></label>
+                <input asp-for="Vol.Ligne" class="form-control" />
+                <span asp-validation-for="Vol.Ligne" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Vol.Compagnie" class="control-label"></label>
+                <input asp-for="Vol.Compagnie" class="form-control" />
+                <span asp-validation-for="Vol.Compagnie" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Vol.Dhc" class="control-label"></label>
+                <input asp-for="Vol.Dhc" class="form-control" />
+                <span asp-validation-for="Vol.Dhc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Vol.NbPassgers" class="control-label"></label>
+                <input asp-for="Vol.NbPassgers" class="form-control" />
+                <span asp-validation-for="Vol.NbPassgers" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Vol.Parking" class="control-label"></label>
+                <input asp-for="Vol.Parking" class="form-control" />
+                <span asp-validation-for="Vol.Parking" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Vol.Immatriculation" class="control-label"></label>
+                <input asp-for="Vol.Immatriculation" class="form-control" />
+                <span asp-validation-for="Vol.Immatriculation" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Vol.Destination" class="control-label"></label>
+                <input asp-for="Vol.Destination" class="form-control" />
+                <span asp-validation-for="Vol.Destination" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

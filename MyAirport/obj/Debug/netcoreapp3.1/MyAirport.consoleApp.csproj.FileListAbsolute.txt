@@ -1,0 +1,11 @@
+C:\Users\Lydia\source\repos\MyAirport\MyAirport\bin\Debug\netcoreapp3.1\MyAirport.consoleApp.exe
+C:\Users\Lydia\source\repos\MyAirport\MyAirport\bin\Debug\netcoreapp3.1\MyAirport.consoleApp.deps.json
+C:\Users\Lydia\source\repos\MyAirport\MyAirport\bin\Debug\netcoreapp3.1\MyAirport.consoleApp.runtimeconfig.json
+C:\Users\Lydia\source\repos\MyAirport\MyAirport\bin\Debug\netcoreapp3.1\MyAirport.consoleApp.runtimeconfig.dev.json
+C:\Users\Lydia\source\repos\MyAirport\MyAirport\bin\Debug\netcoreapp3.1\MyAirport.consoleApp.dll
+C:\Users\Lydia\source\repos\MyAirport\MyAirport\bin\Debug\netcoreapp3.1\MyAirport.consoleApp.pdb
+C:\Users\Lydia\source\repos\MyAirport\MyAirport\obj\Debug\netcoreapp3.1\MyAirport.consoleApp.csprojAssemblyReference.cache
+C:\Users\Lydia\source\repos\MyAirport\MyAirport\obj\Debug\netcoreapp3.1\MyAirport.consoleApp.AssemblyInfoInputs.cache
+C:\Users\Lydia\source\repos\MyAirport\MyAirport\obj\Debug\netcoreapp3.1\MyAirport.consoleApp.AssemblyInfo.cs
+C:\Users\Lydia\source\repos\MyAirport\MyAirport\obj\Debug\netcoreapp3.1\MyAirport.consoleApp.dll
+C:\Users\Lydia\source\repos\MyAirport\MyAirport\obj\Debug\netcoreapp3.1\MyAirport.consoleApp.pdb
